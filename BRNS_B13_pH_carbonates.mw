@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="2021" minor="1"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false" editable="true">
+</View-Properties>
+<MapleNet-Properties prettyprint="3" warnlevel="3" compactdisplay="false" preplot="" helpbrowser="standard" displayprecision="-1" echo="1" scientificx="true" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" historytimestamp="false" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="1080" rtablesize="[10, 10]" useclientjvm="true" format="worksheet" labelwidth="20" postplot="" typesetting="extended" ansi="false" ansicolor="[]" elisiondigitsthreshold="10000" showassumed="1" ansilprint="false" trailingsemicolon="true" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
+<Styles>
+<Font name="2D Math Italic Small203236239" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Variable" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Left Justified Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small203230" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small203232" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small203231" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small203234" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small203233" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small203225" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small203224" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small203227" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Comment" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small203226" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small203229" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small203228" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Popup" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Plot Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="8" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small203221" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small203220" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small203223" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Small" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small203222" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small203214" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small203216" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small203215" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small203218" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small203217" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small203219" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small203238244" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small203238243" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Bold Small" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Bold" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Menus" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="9" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[64,128,64]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Monospaced" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small203" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Output Labels" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="8" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small202" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Notes" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Underlined" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal258" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[64,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Plot Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Italic Bold" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Default" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="LaTeX" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small203236" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small203235" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small203238" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Emphasized" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small203237" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Italic" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Prompt" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Bold" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[128,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[128,128,128]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Underlined Bold" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal260" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Copyright" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small202212" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math Italic Small203237241" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small202211" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small202210" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small202208" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small202207" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small202209" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Heading" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Fixed Width" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Page Number" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Fixed" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math Italic Small" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Symbol 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Nonterminal" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Maple Name" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[104,64,92]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Help Underlined Italic" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Comment" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Fixed Width" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Left Justified Maple Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Help" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="none" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 3" alignment="left" bullet="none" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 4" alignment="left" bullet="none" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 5" alignment="left" bullet="none" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal260" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal258" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Metadata-table>
+    <Metadata-category name="&lt;default&gt;"/>
+    <Metadata-tag id="0" category="&lt;default&gt;" name="Document Properties">
+        <Metadata-attribute name="Keywords" value="&lt;default&gt;"/>
+        <Metadata-attribute name="Item List" value="true"/>
+        <Metadata-attribute name="Title" value="&lt;default&gt;"/>
+        <Metadata-attribute name="Author" value="&lt;default&gt;"/>
+        <Metadata-attribute name="Subject" value="&lt;default&gt;"/>
+    </Metadata-tag>
+</Metadata-table>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/><Text-field style="Normal258" layout="Normal258">_________________________________________________________________________
+</Text-field><Text-field style="Text" layout="Normal" alignment="centred">AUTOMATIC CODE GENERATOR (ACG) FOR CONSTRUCTING USER-DEFINED</Text-field><Text-field style="Text" layout="Normal" alignment="centred">BIOGEOCHEMICAL REACTION NETWORKS</Text-field><Text-field style="Normal258" layout="Normal258"></Text-field><Text-field style="Normal258" layout="Normal258"><Font size="18" style="Text" foreground="[64,128,128]">version 1.2</Font>
+<Font size="18" style="Text" foreground="[64,128,128]">COPYRIGHT (c) 2001 P.A.G. Regnier 
+<Font italic="true">All Rights Reserved
+</Font>
+<Font italic="true">Research Unit on Biogeochemical Systems Dynamics
+Department of Geochemistry, Utrecht University, 
+The Netherlands</Font></Font>
+__________________________________________________________________________</Text-field><Text-field style="Normal" layout="Normal">__________________________________________________________________________</Text-field><Text-field style="Normal" layout="Normal"><Font size="14" style="Text" bold="true" family="Monospaced">INPUT TYPES</Font><Font size="18" style="Text" family="Monospaced">
+</Font>
+<Font size="18" style="Text" bold="true" foreground="[128,128,128]" family="Monospaced">OOO</Font> : Sections that should be modified by the user
+<Font size="18" style="Text" bold="true" foreground="[0,255,0]" family="Monospaced">OOO</Font> : Sections that should NOT be modified by the user
+</Text-field><Text-field style="Normal" layout="Normal"><Font size="18" style="Text" bold="true" family="Monospaced">OOO</Font><Font size="14" style="Text" bold="true" family="Monospaced"> </Font>: comments 
+<Font size="18" style="Text" bold="true" foreground="[255,0,0]" family="Monospaced">OOO</Font><Font size="14" style="Text" bold="true" foreground="[255,0,0]" family="Monospaced"> </Font>: Maple input
+<Font size="18" style="Text" bold="true" foreground="[0,0,255]" family="Monospaced">OOO</Font> : Maple output (appears only after you have executed the spreadsheet) 
+<Font style="Help Heading">OOO</Font>  : Maple input entries that have to be specified by the user 
+
+<Font style="Hyperlink">WWW</Font>  : Hyperlink to the Knowledge Book
+<Font style="Text" family="Monospaced" italic="true">
+</Font>_________________________________________________________________________ 
+</Text-field>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Text" layout="Normal" spaceabove="8" spacebelow="4"> Maple specific info</Text-field></Title>
+<Group labelreference="L3" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart ;
+#with(Spread) :</Text-field>
+</Input>
+</Group>
+<Group labelreference="L4" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"> precision := double :</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Text" layout="Normal" spaceabove="8" spacebelow="4"> Summary and governing equations</Text-field></Title>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 3" layout="Heading 3"> Governing equation </Text-field></Title><Text-field style="Normal" layout="Normal">The governing equation solved is of the form :
+<Font style="Text" bold="true" family="Monospaced">theta(x)*dC/dt = -d(Fdiff+Fadv)/dx + R</Font>,
+where 
+- dX/dp is the partial derivative of X with respect to p [M/L^3/[p]]
+- theta(x) = A(x)*por(x) for dissolved, and A(x)*(1-por(x)) for solid species [L^2]
+- Fdiff = -(D(x)*theta(x)*dC/dx) [M/L^2/T]
+- Fadv  = (v*theta(x)*C)[M/L^2/T]
+- A is the cross section area [L^2], por is porosity [-]
+- v is the advection velocity [L/T], the sum of 
+the water flow velocity (vwat = water flow q in [L^3/T]/theta(x), solutes only) and 
+an advective velocity w acting upon both solids and solutes (e.g. movement due to fixed reference frame)
+- D is the effective diffusion coefficient [L^2/T], the sum of 
+the molecular diffusion coefficient (Dmol, solutes only), 
+the bioturbation coefficient (Db) and 
+the dispersion coefficient (Disp = aL*|vwat|, solutes only, aL in [L]). 
+- R is the sum of the reaction terms [M/L^3/T] as specified in the reaction network established below</Text-field>
+</Section>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 3" layout="Heading 3"> Caveats </Text-field></Title><Text-field style="Normal" layout="Normal">- for real numbers you should add a point after the number.
+- make sure all units match. 
+e.g. rates and dXdt, or flux boundary conditions and concentrations
+for the conversion of solid to solute units, 
+one may define temporary variables that can be used in the rate laws below:
+s_dens := 2.5; # solid density in [g/cm_solid^3]
+sd := 1000. * s_dens * (1. - por(j)) / por(j); 
+the factor 1.d03 converts cm^3 to liter, e.g. [g/cm^3] to [g/l]. 
+note that you need to refer to porosity <Font underline="true" style="Text" family="Monospaced">exactly</Font> as por(j).</Text-field>
+</Section>
+</Section>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1"> Physics - Parameters</Text-field></Title><Text-field style="Normal260" layout="Normal260">The list of length <Font style="Help Heading">nparphys &amp; nparphys2</Font> is given by <Font style="Help Heading">phys_name &amp; phys_name2</Font>; the values collected in <Font style="Help Heading">phys_val &amp; phys_val2.</Font></Text-field>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 3" layout="Heading 3"> Spatial and temporal domain size</Text-field></Title><Text-field style="Normal" layout="Normal"><Font style="Help Heading">tot_time:</Font> total length of simulation (T, e.g. years)</Text-field><Text-field style="Normal" layout="Normal"><Font style="Help Heading">depth_max:</Font> spatial extent, e.g. total depth of simulation (L, e.g. cm)</Text-field>
+<Group hide-input="false" labelreference="L5" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">tot_time := 3000.0 ;
+depth_max := 100.4 ;
+
+</Text-field>
+</Input>
+</Group>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 3" layout="Heading 3"> Temperature and salinity</Text-field></Title><Text-field style="Normal" layout="Normal"><Font style="Help Heading">T_C:</Font> temperature (Celsius)</Text-field><Text-field style="Normal" layout="Normal"><Font style="Help Heading">S</Font> : salinity (PSU)
+T and S are used to calculate the molecular diffusion coefficients
+T: absolute temperature (Kelvin)</Text-field>
+<Group hide-input="false" labelreference="L6" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">T_C := 1.77 ;
+T := T_C + 273.15 ;
+S := 35.0 ;
+Depth:= 355.0;
+P := Depth*9.81*1027./100000.;
+R := 83.145;  </Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 3" layout="Heading 3"> Transport coefficients</Text-field></Title>
+<Group labelreference="L7" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font style="Help Heading">vaL</Font>: longitudinal dispersivity (L). The dispersion coefficient is calculated as Disp = aL*|vwat| 
+<Font style="Help Heading">viq</Font>: depth dependency of flow. 0: constant, else changing with depth (i.e. distance)
+<Font style="Help Heading">vq0</Font>: water flow (either constant or else at x=0, L^3/T)
+<Font style="Help Heading">viw</Font>: depth dependency of w. 0: constant, else changing with depth (i.e. distance)
+<Font style="Help Heading">vw0</Font>: advection velocity working on solids and solutes (either constant or else at x=0, L/T)
+<Font style="Help Heading">viDb</Font>: depth dependency of Db. 0: constant, else changing with depth (i.e. distance)
+<Font style="Help Heading">vDb0</Font>: bioturbation coefficient working on solids and solutes (either constant or else at x=0, L^2/T)
+
+- user specified profiles of q(x), w(x) or Db(x) must be defined in the fortran subroutines advcoeff.f and diffcoeff.f, respectively.
+- the molecular diffusion coefficients for the species used are specified further below</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" hide-output="false" labelreference="L8" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">val := 0.0 ;
+viq := 0 ;
+vq0 := 0. ;
+viw := 0 ;
+vw0 := 0.05 ;#3.3*10.0^(-0.87478367-0.00043512*Depth);
+viDb := 1 ;
+vDb0 := 6.0 ; #5.2*(10.0^(0.7624-0.0003972*Depth)); #Middelburg (water depth)
+#vDb0 := 15.7*(vw0^0.69) ; #Boudreau (sedimentation rate)</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 3" layout="Heading 3"> Porosity profile and cross section area</Text-field></Title>
+<Group labelreference="L9" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font style="Help Heading">vipor</Font>: depth dependency of porosity. 0: constant, else changing with depth (i.e. distance)
+<Font style="Help Heading">vpor0</Font>: porosity value (either constant or else at x=0)
+<Font style="Help Heading">viarea</Font>: depth dependency of cross section area. 0: constant, else changing with depth (i.e. distance)
+<Font style="Help Heading">varea0</Font>: cross section area (either constant or else at x=0, L^2)
+- user specified profiles of por(x) or area(x) must be defined in the fortran subroutine porarea.f.</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L10" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">vipor := 1 ;
+vpor0 := 0.89 ;
+viarea := 0 ;
+varea0 := 1.0 ;</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2"></Text-field></Title>
+</Section>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 3" layout="Heading 3"> Grid and discretization</Text-field></Title><Text-field style="Normal" layout="Normal"><Font style="Help Heading">Dt:</Font> time step of numerical integration (T). 
+note that there are options defined in drivervalues.f that allow automatical selection of timestep</Text-field><Text-field style="Normal" layout="Normal"><Font style="Help Heading">nnodes</Font>: number of nodes in the spatial domain. 
+for a regular grid, the grid spacing of the concentration profile is then depth_max/(nnodes-1)
+<Font style="Help Heading">vigridv</Font>: type of grid. 
+0 is for regular, evenly spaced grid, 
+else the user needs to specify the grid in the fortran subroutine gridsetup.f</Text-field>
+<Group hide-input="false" labelreference="L11" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Dt := 0.005 ;
+nnodes := 121;
+vigrid := 1;</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1"> Reaction Network - Size and Variables</Text-field></Title>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 3" layout="Heading 3"> Size of reaction network</Text-field></Title><Text-field style="Normal" layout="Normal"><Font style="Help Heading">nsolids :</Font> number of solid species 
+<Font style="Help Heading">ndissolved :</Font> number of dissolved species 
+<Font style="Help Heading">ncompo :</Font> total number of species 
+<Font style="Help Heading">nreactions :</Font> total number of reactions (including equilibrium rxns) </Text-field><Text-field style="Normal" layout="Normal"><Font style="Help Heading">neqrxns :</Font> number of equilibrium reaction</Text-field>
+<Group hide-input="false" hide-output="false" labelreference="L12" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">nsolids := 16;
+ndissolved := 19;
+ncompo := nsolids + ndissolved;
+nreactions := 43;
+neqrxns := 8 ;</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 3" layout="Heading 3"> List of variables</Text-field></Title><Text-field style="Normal" layout="Normal"><Font style="Help Heading">variables:</Font> list of variables to model. example: 
+<Font style="Help Heading">listsolids:</Font> species number which is a SOLID species. 
+note: all other variables are temporary and are NOT parsed to the ACG
+
+<Font style="Text" family="Monospaced" italic="true">Example: 
+variables:=[O2, so4, MnOx, FeOx, hco3, co3, hplus, hs];
+listsolids: = [3,4];</Font></Text-field>
+<Group hide-input="false" hide-output="false" labelreference="L13" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">variables := [ch2o, o2, no3, mno2, feoh3, so4, ch4, nh4, po4, mn, fe, h2s, hs, ch4g, h2co3, hco3, co3, boh4, boh3, hplus, caco3, ca, snh4, spo4, fes, feco3, s0, fes2, sfe, sfp, mnco3, age, mno2pr, feoh3mr, feoh3pr] ;
+listsolids := [1, 4, 5, 21, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35] ;</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1"> Biogeochemistry - Rate laws</Text-field></Title><Text-field style="Normal" layout="Normal">Definition of <Font style="Text" bold="true" family="Monospaced">kinetic rate laws</Font></Text-field><Text-field style="Normal" layout="Normal"><Font style="Help Heading">rate.i :</Font> array of rates. 
+<Font style="Text" bold="true" family="Monospaced" italic="true">- For equilibrium rate expression, a kinetic rate MUST be specified as well.</Font> It will be overwritten in the equilibrium section below, but you need it as space holder and stoichiometry. Furthermore, the steadystate module uses detailed balancing method with fast kinetics. Therefore, in the example below, kf will have to be defined as a rather large number and kb = kf*Keq
+note: all other variables are temporary and are NOT parsed to the ACG
+- <Font style="Text" bold="true" family="Monospaced" italic="true">conditional statements</Font>: if a rate law depends on a conditional statement you need to make use of the subroutine switches.f. Example: dissolution (Rd) is only to take place at undersaturation, thus  Rd= f(saturation). If saturation &gt; 1, Rd&gt;0, else Rd=0. This canbe implemented as Rd:=k*H1*saturation, where H1 is toggled between 0 and 1. Rather than giving the condition here in maple, for now you need to do this in &quot;switches.f&quot;, where you program the conditions for H1, e.g. <Font style="Text" family="Monospaced" italic="true">H1=0, If (A*B/K&gt;1) then H1 = 1.</Font>
+ 
+<Font style="Text" family="Monospaced" italic="true">example: 
+rate1 := 1000.*O2*hs; # rate law for 2O2 + HS -&gt; SO4 + Hplus
+rate2 := kf*hplus*co3 - kb*hco3; # kinetic rate law for HCO3 = CO3 + Hplus (equilibrium)</Font></Text-field>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2"></Text-field></Title>
+<Group labelreference="L14" drawlabel="true">
+<Input><Text-field style="Heading 2" layout="Heading 2"> Primary redox reactions <Hyperlink linktarget="http://www.geo.uu.nl/Research/Geochemistry/kb/Knowledgebook/Hetero3.pdf" hyperlink="true"><Font style="Hyperlink">WWW</Font></Hyperlink></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" hide-output="false" labelreference="L15" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#primary redox
+attpor:=1.0e-1;
+porX:=0.62;
+
+#age   :=sw01*1e-10 + (1.0-sw01)*(((1-porX)*(x_pos-xbiot)+1.0/attpor*(vpor0-porX)*(exp(-attpor*(x_pos-xbiot))-1.0))/(vw0*(1-vpor0)));
+fo2   :=(sw02+(1.0-sw02)*o2/kmo2);
+fno3  :=sw03*(1.0-fo2)*(sw04+(1.0-sw04)*no3/kmno3);
+fmno2 :=sw05*(1.0-fo2-fno3)*(sw06+(1.0-sw06)*mno2/kmmno2);
+ffeoh3:=sw07*(1.0-fo2-fno3-fmno2)*(sw08+(1.0-sw08)*feoh3/kmfeoh3);
+fso4  :=sw09*(1.0-fo2-fno3-fmno2-ffeoh3)*(sw10+(1.0-sw10)*so4/kmso4);
+fch4  :=sw11*(1.0-fo2-fno3-fmno2-ffeoh3-fso4);
+
+rate1 := 0.0; # nu/(inita+age)*ch2o;
+rate2 := nu/(inita+age)*ch2o*fo2;
+rate3 := nu/(inita+age)*ch2o*fno3;
+rate4 := nu/(inita+age)*ch2o*fmno2;
+rate5 := nu/(inita+age)*ch2o*ffeoh3;
+rate6 := nu/(inita+age)*ch2o*fso4;
+rate7 := nu/(inita+age)*ch2o*fch4;
+
+
+#secondary redox
+rate8 := knit*nh4*o2;
+rate9 := kmnox*mn*o2;
+rate10:= kfemno2*fe*mno2;
+rate37:= kfemno2pr*fe*mno2pr; # FSF PR MnO2
+rate11:= kfeo2*fe*o2; 
+rate12:= kh2so2*(h2s+hs)*o2;
+rate13:= kh2smno2*mno2*(hs+h2s);
+rate38:= kh2smno2pr*mno2pr*(hs+h2s); # FSF PR MnO2
+rate14:= kh2sfeoh3*feoh3*(hs+h2s);
+rate40:= kh2sfeoh3mr*feoh3mr*(hs+h2s); # FSF MR FeOH3
+rate41:= kh2sfeoh3pr*feoh3pr*(hs+h2s); # FSF PR FeOH3
+rate15:= kaom*ch4*so4;
+rate16:= kaomo2*ch4*o2;
+rate17:= kfeso2*fes*o2;
+
+#mineral
+rate18:= kmnco3precip*sw12*((mn*co3/KsMnCO3)-1.0);
+rate19:= kfesprecip*sw13*(((fe*hs)/(hplus*KsFeS))-1.0);
+rate20:= kfesdiss*(1.0-sw13)*fes*(1.0-((fe*hs)/(hplus*KsFeS)));
+rate21:= kfeco3precip*sw14*((fe*co3/KsFeCO3)-1.0);
+rate22:= kpyr*fes*(h2s+hs); 
+rate23:= kfess0*fes*s0;
+rate24:= sw15*kcaldiss *caco3* ((1.0 - (ca*(co3)/kspcal)));
+rate25:= sw16*kapa*(po4-po4_eq);
+rate43:= sw20*kcalppt*((ca*co3/kspcal)-5.0); #FSF CaCO3 (calcite) precipitation
+
+#misc
+rate26:= (1.0-sw17)*kdis*sw18*(ch4g)*(ch4eq-(ch4));
+rate27:= sw17*kgas*(ch4-ch4eq);
+rate28:= kdi*sw19*s0;
+rate39:= kmnage*mno2; #FSF HR MnO2 ageing into unreac MnO2
+rate42:= kfeage*feoh3; #FSF HR FeOH3 ageing into MR FeOH3
+
+#eq
+rate29:= kf1*hplus*hco3-kb1*h2co3;
+rate30:= kf2*hplus*co3-kb2*hco3;
+rate31:= kf3*hplus*hs-kb3*h2s ;
+rate32:= kf4*hplus*boh4-kb4*boh3;
+rate33:= kf5*po4*por(j) - kb5*spo4*(1. - por(j));
+rate34:= kf6*nh4*por(j) - kb6*snh4*(1. - por(j));
+rate35:= kf7*(feoh3+feoh3mr+feoh3pr)*po4- kb7*sfp; #FSF Iron fractions;
+rate36:= kf8*fe*por(j)  - kb8*sfe*(1. - por(j));
+</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1"> Biogeochemistry - Stoichiometry
+</Text-field></Title><Text-field style="Normal" layout="Normal">Stoichiometry of the biogeochemical reactions
+<Font style="Help Heading">d.sp.dt :</Font> rates of change of sp due to the sum of biogeochemical reactions
+note that rateX must be referred to as rX  
+ 
+<Font style="Text" family="Monospaced" italic="true">example:
+dO2dt := -2*r1;
+dhco3dt = -r2;</Font> </Text-field>
+<Group hide-input="false" labelreference="L16" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">SD := (1.0 - por(j)) / por(j);
+SD1:= 1/por(j);
+x  := 106;
+y  :=  12; 
+z  :=   1;
+</Text-field>
+</Input>
+</Group><Text-field style="Normal" layout="Normal"></Text-field>
+<Group hide-input="false" labelreference="L17" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dch2odt := 0.0; # PP
+dagedt  := 0.0; # PP
+do2dt   := -(x+2*y)/x*SD*r2-2.0*r8-2.0*r16-2.0*r12-0.25*r11-2.0*SD*r17-0.5*r9;
+dno3dt  := -(4.0*x+3.0*y)/(5.0*x)*SD*r3+r8;
+dmno2dt := -2.0*r4+r9/SD-r10-r13-r39; # FSF (r39 = ageing);
+dmno2prdt := -r37-r38+r39; # FSF PR MnO2 rate
+dfeoh3dt:= -4*r5-2.0*r14+1.0*r11/SD+2.0*r10+2.0*r37-r42; #FSF (r42 = ageing);
+dfeoh3mrdt:= -2.0*r40+r42; #FSF MR FeOH3 rate;
+dfeoh3prdt:= -2.0*r41; #FSF PR FeOH3 rate;
+dso4dt  := -0.5*SD*r6-r15+0.5*r12+SD*r17;#+r28;
+dch4dt  :=  0.5*SD*r7-r15-r16+r26-r27;
+dch4gdt := -r26+r27; 
+
+
+dnh4dt  := y/x*SD*( (r2+r3+r4+r5+r6+r7) -r3)-r8-r34*SD1; # PP
+dpo4dt  := z/x*SD*( r2+r3+r4+r5+r6+r7 )-r25-r33*SD1-r35*SD1; # PP
+
+#dnh4dt  := y/x*SD*(r1-r3)-r8-r34*SD1;
+#dpo4dt  := z/x*SD*(r1)-r25-r33*SD1-r35*SD1;
+
+
+dmndt   := 2.0*SD*r4-r9+(r10+r37)*SD+(r13+r38)*SD-1.0*r18*SD; #FSF
+dfedt   := 4.0*SD*r5+2.0*SD*(r14+r40+r41)-1.0*r11+SD*r17-1.0*r19-1.0*SD*r21+SD*r20-r36*SD1-2.0*(r10+r37)*SD; #FSF
+dh2sdt  := 0.5*SD*r6+r15-r12+r31-1.0*SD*(r14+r40+r41)-1.0*r19-1.0*SD*r22+3.0*r28+SD*r20-(r13+r38)*SD; #FSF
+dhsdt   :=-r31-r12-1.0*SD*(r13+r38)-1.0*SD*(r14+r40+r41)-1.0*r19*SD+SD*r20-1.0*SD*r22; #FSF #dhsdt   :=-r31;
+dh2co3dt:=((x+y+2.0*z)/x)*SD*r2+((x-3.0*y+10.0*z)/(5.0*x))*SD*r3-(3.0*x+y-2.0*z)*SD*r4/x-((y-2.0*z)/x)*SD*r6+((x-2.0*y+4.0*z)/(2.0*x))*SD*r7-(7.0*x+y-2.0*z)/x*SD*r5+2.0*r8-r15+r16+2.0*r12-4.0*SD*(r14+r40+r41)+r29+2.0*r11+2.0*r19+1.0*r21+2.0*r28-2.0*SD*r20+2.0*r9+2.0*(r10r37)*SD-2.0*(r13+r38)*SD+r18; #FSF
+dhco3dt:=-((y+2.0*z)/x)*SD*r2+((4.0*x+3.0*y-10.0*z)/(5.0*x))*SD*r3+(4.0*x+y-2.0*z)*SD*r4/x+((x+y-2.0*z)/x)*SD*r6+((y-2.0*z)/x)*SD*r7+(8.0*x+y-2.0*z)/x*SD*r5-2.0*r8+2.0*r15-2.0*r12+4.0*SD*(r14+r40+r41)-r29+r30-2.0*r11-2.0*r19-2.0*SD*r21-2.0*r28+2.0*SD*r20-2.0*r9-2.0*(r10+r37)*SD+2.0*(r13+r38)*SD-2.0*r18*SD;
+dco3dt:=-r30+SD*r24-r43; #FSF r43: CaCO3 prec
+dboh4dt:=-r32;
+dboh3dt:=r32;
+dhplusdt:=-r29-r30-r31-r32;
+dcaco3dt:=-r24+1.0*r43/SD; #FSF r43: CaCO3 prec
+dcadt:=1.0*SD*r24-1.0*r43; #FSF r43: CaCO3 prec
+dsnh4dt:=r34/(1.0-por(j));
+dspo4dt:=r33/(1.0-por(j));
+dfesdt:=(1.0*r19/SD-1.0*r17-1.0*r22-1.0*r23-r20);
+dfeco3dt:=(1.0*r21/SD);
+dmnco3dt:=(1.0*r18/SD);
+dfes2dt:=1.0*r22+1.0*r23;
+ds0dt:=1.0*SD*(r14+r40+r41)-4.0*r28-1.0*SD*r23+1.0*SD*(r13+r38); #FSF
+dsfedt:=r36/(1.0-por(j));
+dsfpdt:=r35/(1.0-por(j));
+
+
+</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1"> Biogeochemistry - Equilibria</Text-field></Title><Text-field style="Normal" layout="Normal">Specification of equilibrium constraints
+<Font style="Help Heading">eqrxnsId :</Font> set of kinetic reactions which are overuled by a thermodynamic constraint </Text-field><Text-field style="Normal" layout="Normal"><Font style="Help Heading">equilibriumseqns[i] </Font>: Equilibrium constraint for reaction i  
+
+<Font style="Text" family="Monospaced" italic="true">example:
+eqrxnID := [r2,rX];
+equilibriumeqns[1] := hplus*co3 - Keq*hco3;
+equilibriumeqns[2] := ...;</Font></Text-field>
+<Group hide-input="false" labelreference="L18" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">eqrxnId := [r29, r30, r31, r32, r33, r34, r35, r36] ;</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">equilibriumeqns[1] := hplus*hco3-keq1*h2co3 ;
+equilibriumeqns[2] := hplus*co3-keq2*hco3  ;
+equilibriumeqns[3] := hplus*hs-keq3*h2s ;
+equilibriumeqns[4] := hplus*boh4-keq4*boh3;
+equilibriumeqns[5] := kspo4*po4*por(j) - spo4*(1. - por(j)) ;
+equilibriumeqns[6] := ksnh4*nh4*por(j) - snh4*(1. - por(j)) ;
+equilibriumeqns[7] := ksfp*(feoh3+feohmr+feoh3pr)*po4 - sfp ; #(assume forward reaction is dictated by solid phase)#FSF Iron fractions;
+equilibriumeqns[8] := ksfe*fe*por(j) - sfe*(1. - por(j)) ;</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1"> Biogeochemistry - Parameters</Text-field></Title><Text-field style="Normal" layout="Normal"><Font style="LaTeX">Values of rates constants and parameters </Font>
+In this section, all parameters defined in section 'Rate laws' should be defined.
+<Font style="Help Heading">nparam</Font>: number of parameters to define 
+The list is given by <Font style="Help Heading">bio_name</Font>; the values collected in <Font style="Help Heading">bio_val.</Font>
+note that for double precision, 10 should be written as 10.
+
+<Font style="Text" family="Monospaced" italic="true">example:
+nparam:=4;
+bio_name:=[kmo2hs,kf,kb,Keq];
+vkf :=1.0*10^(5);
+vKeq:=1.0*10^(-10.4);
+vkb :=vkf*vKeq;
+bio_val:=[1000.,vkf,vkb,vKeq];</Font></Text-field><Text-field style="Normal" layout="Normal"></Text-field><Text-field style="Normal" layout="Normal"></Text-field>
+<Group hide-input="false" labelreference="L19" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">nparam := 88;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L20" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"># calculate the dissociation constants, etc, based on temp and salinity (baseline P = 0) from Millero (1995)
+lnKC1_0 := 2.83655 - 2307.1266/ T - 1.5529413* ln(T) + (- (0.20760841 + 4.0484/ T)* sqrt(S)) + (0.08468345* S - 0.00654208* S* sqrt(S)) + (ln(1 - 0.001005* S));
+lnKC2_0 :=-9.226508 - 3351.6106/ T - 0.2005743* ln(T)+(-0.106901773 - 23.9722/ T)* sqrt(S)+(0.1130822* S - 0.00846934* S^1.5 + ln(1 - 0.001005 * S));
+lnKS_0 := 225.838 - 13275.3/T - 34.6435*ln(T) + 0.3449*S^0.5 - 0.0274*S ;
+lnKB_0:=(-8966.90-2890.53*sqrt(S)-77.942*S+1.728*S^(3.0/2.0)-0.0996*S*S)/T+(148.0248+137.1942*sqrt(S)+1.62142*S)+((-24.4344-25.085*sqrt(S)-0.2474*S)*ln(T))+ (0.053105*sqrt(S)*T);
+
+# Now apply conversion for P (Millero 1995).
+# units are M
+
+deltav:=  -25.5 + 0.1271*T_C + 0.0*T_C*T_C;
+deltak:= (-3.08e-3 + 0.0877e-3*T_C + 0.0*T_C*T_C);  
+lnkpok0:= -(deltav/(R*T))*P + (0.5*deltak/(R*T))*P*P;
+val_kkeq1 := exp(lnKC1_0)*exp(lnkpok0);
+
+
+deltav:=  -15.82  -0.0219*T_C;
+deltak:=  (1.13e-3 -0.1475e-3*T_C);  
+lnkpok0:= -(deltav/(R*T))*P + (0.5*deltak/(R*T))*P*P;
+val_kkeq2:= exp(lnKC2_0)*exp(lnkpok0);
+
+val_kkeq3 := exp(lnKS_0 + ((14.8  - 0.002*T_C + 0.0004   *T_C^2)*P + 0.5* (2.89 + 0.054*T_C) *P^2/1.01345)/R/T);
+
+deltav:=  -29.48 + 0.1622*T_C -2.608e-3*T_C*T_C;
+deltak:= (-2.84e-3+ 0.0794e-3*T_C);  
+lnkpok0:= -(deltav/(R*T))*P + (0.5*deltak/(R*T))*P*P;
+val_kkeq4:= exp(lnKB_0)*exp(lnkpok0);
+
+lnKC3_0:= -13847.26/T + 148.96502 - 23.6521* log(T)+ (118.67/T - 5.977 + 1.0495*log(T))*sqrt(S) - 0.01615*S;</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">deltav:=  -25.6 +0.2324*T_C-3.6246e-3*T_C**2;</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">deltak:=  (5.13e-3 +0.07945e-3*T_C);  </Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">lnkpok0:= -(deltav/(R*T))*P + (0.5*deltak/(R*T))*P*P;</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">val_kkeq5:= exp(lnKC3_0)*exp(lnkpok0);</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">
+# calculate the solubility product for caco3
+readlib(log10) :
+tmp1 := -171.9065-0.077993*T+2839.319/T+71.595*log10(T);
+tmp2 := +(-0.77712+0.0028426*T+178.34/T)*sqrt(S);
+tmp3 := -0.07711*S+0.0041249*S^1.5;
+log10Kspc := tmp1 + tmp2 + tmp3;
+ksca := 10.0^(log10Kspc);
+
+deltav:=   -48.7600 + 0.5304*T_C;
+deltak:= (-0.0118 +  3.6920e-4*T_C);  
+lnkpok0:= -(deltav/(R*T))*P + (0.5*deltak/(R*T))*P*P;</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">
+#________________________________________________________________________________________________
+
+</Text-field>
+</Input>
+</Group>
+<Group labelreference="L21" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#units mol, l, yr</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" hide-output="false" labelreference="L22" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">val_xbiot       :=2.0;
+val_inita       :=2.0e1;
+val_nu          :=0.150;
+val_kmo2        :=8.0e-9;
+val_kmno3       :=5.0e-9;
+val_kmmno2      :=5.0e-6;
+val_kmfeoh3     :=1.25e-5;
+val_kmso4       :=100.0e-9;
+val_knit        :=0.15e8;
+val_kmnox       :=0.2e9;
+val_kfemno2     :=0.2e4;
+val_kfemno2pr   :=0.2e5; #FSF
+val_kfeo2       :=0.1e10;
+val_kh2so2      :=0.1e10;
+val_kh2smno2    :=0.1e8;
+val_kh2smno2pr  :=0.1e5; #FSF
+val_kh2sfeoh3   :=0.1e8;
+val_kh2sfeoh3mr :=0.1e7; #FSF
+val_kh2sfeoh3pr :=0.1e4; #FSF
+val_kaom        :=0.5e7;
+val_kaomo2      :=0.1e14;
+val_kfeso2      :=0.1e10;
+val_kmnco3precip:=0.1e-6;
+val_KsMnCO3     :=0.32e-15;
+val_kfesprecip  :=0.5e-8;
+val_kfesdiss    :=0.1e-2;
+val_KsFeS       :=6.3e-6/0.77;
+val_kfeco3precip:=0.1e-7;
+val_KsFeCO3     :=0.4e-14;
+val_kcalppt     :=0.1e-2; #FSF
+val_kpyr        :=0.6e8;
+val_kfess0      :=0.25e5;
+val_kcaldiss    :=0.1e0;
+val_kapa        :=1.0e0;
+val_po4_eq      :=0.1e-7;
+val_kdis        :=0.0e0;
+val_ch4eq       :=0.1e5;
+val_kgas        :=0.0e0;
+val_kdi         :=0.1e-2;
+val_h2sstar     :=0.1e-4;
+val_ksnh4       :=0.16e4;
+val_kspo4       :=0.18e1; 
+val_ksfp        :=0.5e8;
+val_ksfe        :=0.4e3;
+val_kmnage      :=0.6; #FSF
+val_kfeage      :=0.6; #FSF
+
+val_keq1 :=val_kkeq1*1e-3;
+val_keq2 := val_kkeq2*1e-3;
+val_keq3 := val_kkeq3*1e-3;
+val_keq4 := val_kkeq4*1e-3;
+val_keq5 := val_kkeq5*1e-6; #cst ionisation water Kw=10-14mol/l; 10-20mol/cm3
+
+
+val_kf1 := 1.0;
+val_kb1 := val_keq1;
+val_kf2 := 1.0 ;
+val_kb2 := val_keq2;
+val_kf3 := 1.0;
+val_kb3 := val_keq3;
+val_kf4 := 1.0;
+val_kb4 := val_keq4;
+val_kf5 := val_kspo4;
+val_kb5 := 1.0;
+val_kf6 := val_ksnh4;
+val_kb6 := 1.0;
+val_kf7 := val_ksfp;
+val_kb7 := 1.0;
+val_kf8 := val_ksfe;
+val_kb8 := 1.0;
+val_kspcal := ksca * exp(lnkpok0)*1e-6;
+
+</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L23" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">bio_name := [sw01, sw02, sw03, sw04, sw05, sw06, sw07, sw08, sw09, sw10, sw11, sw12, sw13, sw14, sw15, sw16, sw17, sw18, sw19, sw20, xbiot, inita, nu, kmo2, kmno3, kmmno2, kmfeoh3, kmso4, knit, kmnox, kfemno2, kfeo2, kh2so2, kh2smno2, kh2sfeoh3, kaom, kaomo2, kfeso2, kmnco3precip, KsMnCO3, kfesprecip, kfesdiss, KsFeS, kfeco3precip, KsFeCO3, kcalppt, kpyr, kfess0, kcaldiss, kapa, po4_eq, kdis, h2sstar, ch4eq, kgas, kdi, ksnh4, kspo4, ksfp, ksfe, kf1, kb1, kf2, kb2, kf3, kb3, kf4, kb4, kf5, kb5, kf6, kb6, kf7, kb7, kf8, kb8, kspcal, keq1, keq2, keq3, keq4, kfemno2pr, kh2smno2pr, kmnage, kh2sfeoh3mr, kh2sfeoh3pr, kfeage, keq5]; </Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L24" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">bio_val :=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, val_xbiot, val_inita, val_nu, val_kmo2, val_kmno3, val_kmmno2, val_kmfeoh3, val_kmso4, val_knit, val_kmnox, val_kfemno2, val_kfeo2, val_kh2so2, val_kh2smno2, val_kh2sfeoh3, val_kaom, val_kaomo2, val_kfeso2, val_kmnco3precip, val_KsMnCO3, val_kfesprecip, val_kfesdiss, val_KsFeS, val_kfeco3precip, val_KsFeCO3, val_kcalppt, val_kpyr, val_kfess0, val_kcaldiss, val_kapa, val_po4_eq, val_kdis, val_h2sstar, val_ch4eq, val_kgas, val_kdi, val_ksnh4, val_kspo4, val_ksfp, val_ksfe, val_kf1, val_kb1, val_kf2, val_kb2, val_kf3, val_kb3, val_kf4, val_kb4, val_kf5, val_kb5, val_kf6, val_kb6, val_kf7, val_kb7, val_kf8, val_kb8, val_kspcal, val_keq1, val_keq2, val_keq3, val_keq4, val_kfemno2pr, val_kh2smno2pr, val_kmnage, val_kh2sfeoh3, val_kh2sfeoh3pr, val_kfeage, val_keq5]; 
+
+
+</Text-field>
+</Input>
+</Group>
+<Group labelreference="L25" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1">Switches</Text-field></Title><Text-field style="Normal" layout="Normal"><Font style="Text">Switches can be used in the rate equations. Specify in </Font><Font style="Help Heading">nswitches</Font><Font style="Text">, how many switches are in use, name them and define the switch expressions. The switch names must also appear in </Font><Font style="Help Heading">bio_name</Font><Font style="Text"> and must be assigned a dummy value there. The switch equals 1 if the switch expression is &gt;0, 0 otherwise. To reference the coordinates in the domain, use x_pos, y_pos and z_pos.</Font></Text-field>
+<Group hide-input="false" labelreference="L26" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">nswitches := 20;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L27" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">switchlist := [sw01, sw02, sw03, sw04, sw05, sw06, sw07, sw08, sw09, sw10, sw11, sw12, sw13, sw14, sw15, sw16, sw17, sw18, sw19, sw20] ;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L28" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">switchcrit := [(xbiot-x_pos), (o2-kmo2), -(sw02-1.0), sw03*(no3-kmno3), -sw03*(sw04-1.0), sw05*(mno2-kmmno2),-sw05*(sw06-1.0), sw07*(feoh3-kmfeoh3), -sw07*(sw08-1.0), sw09*(so4-kmso4), -sw09*(sw10-1.0), ((mn*co3/KsMnCO3)-1.0), ((fe*hs)/(KsFeS*hplus)-1.0), ((fe*co3/KsFeCO3)-1.0), (1.0-(ca*co3/kspcal)), (po4-po4_eq), (ch4-ch4eq), (ch4-0.0), (h2sstar-(h2s+hs)), ((ca*co3/kspcal)-5.0)] ;</Text-field>
+</Input>
+</Group><Text-field style="Heading 1" layout="Heading 1"></Text-field>
+</Section>
+</Section>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1"> Transport - Molecular Diffusion</Text-field></Title><Text-field style="Normal" layout="Normal">Spec ification of the molecular diffusion coefficients
+<Font style="Help Heading">diffdata:</Font> molecular diffusion coefficient at 0 degree celsius (cm^2/yr)
+<Font style="Help Heading">alphadata: </Font>temperature dependence of the diffusion coefficient (1/K) 
+the in situ molecular diffusion coefficient, corrected for tortuosity is calculated as:
+D(T,sal) = [(0.95-0.001*sal)* D(T=0,sal=0)*(1 + muc*T[C])]/(1-ln(por^2))  
+<Font style="Text" family="Monospaced" italic="true">example:
+diffdata := [100., 304.,0.,0.,100.];
+alphadata:= [0.006, 0.04,0.,0.,.0.05];
+</Font>[ch2o, o2, no3, mno2, feoh3, so4, ch4, nh4, po4, mn, fe, h2s, hs, ch4g, h2co3, hco3, co3, boh4, boh3, hplus, caco3, ca, snh4, spo4, fes, feco3, s0, fes2, sfe, sfp, mnco3] </Text-field>
+<Group hide-input="false" labelreference="L29" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">diffdata := [0.0, 380.449545, 394.5878727, 0.0, 0.0, 173.9205889, 263.9351889, 395.8731752, 112.35777, 123.3890416, 136.2420668, 331.6080494, 392.0172677, 5000.0, 320.0403267, 217.2161254, 176.0864448, 96.29573485, 110.0522684, 600.0, 0.0, 150.3803945, 0.0, 0.0, 0.0, 0.0, 173.9205889, 0.0, 0.0, 0.0, 0.0 , 0.0, 0.0, 0.0, 0.0];
+alphadata := [0.0, 0.06, 0.038, 0.0, 0.0, 0.045, 0.0520, 0.041, 0.054, 0.05, 0.044, 0.06, 0.031, 0.0, 0.06, 0.048, 0.047, 0.048, 0.048, 0.06, 0.0, 0.045, 0.0, 0.0, 0.0, 0.0, 0.045, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] ; 
+</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1"> Transport - Boundary Conditions</Text-field></Title><Text-field style="Normal" layout="Normal">Specification of upper and lower boundary conditions for each species.
+There are 3 options 
+0. kmnown concentration (Dirichlet, M/L^3)
+1. kmnown concentration gradient (Neumann, M/L^3*L)
+2. kmnown total (diffusive and advective) flux (Robin, M/L^2/T)
+technical note: option 1 and 2 involve ghost points outside the domain. If the mixing parameters vary with depth, one needs to assign a mixing intensities at the ghost points. By default this is done by linear extrapolation. To ovrwrite this, the user has to edit gridsetup.f and advdiffcoeff.f (both at the bottom; explanations are given there)
+<Font style="Help Heading">type_up:</Font> array defining the type of condition for each species at the upper boundary (0, 1 or 2) 
+<Font style="Help Heading">bnddata_up:</Font><Font size="14" style="Text" bold="true" family="Monospaced"> </Font>array containing the values specified at the upper boundary.</Text-field><Text-field style="Normal" layout="Normal"><Font style="Help Heading">type_down:</Font> array defining the type of condition for each species at the lower boundary </Text-field><Text-field style="Normal" layout="Normal"><Font style="Help Heading">bnddata_down:</Font><Font size="14" style="Text" bold="true" family="Monospaced"> </Font>array containing the values specified at the upper boundary.</Text-field><Text-field style="Text" family="Monospaced" layout="Normal"><Font size="14" bold="true" family="Monospaced">
+</Font><Font family="Monospaced" italic="true">example:
+type_up := [0,0,2];
+bnddata_up := [1.4,0.001,0.001];
+type_down := [1,1,1];</Font></Text-field><Text-field style="Text" layout="Normal">bnddata_down := [0.,0.,0.];
+[ch2o, o2, no3, mno2, feoh3, so4, ch4, nh4, po4, mn, fe, h2s, hs, ch4g, h2co3, hco3, co3, boh4, boh3, hplus, caco3, ca, snh4, spo4, fes, feco3, s0, fes2, sfe, sfp, mnco3]  ;</Text-field>
+<Group hide-input="false" hide-output="false" labelreference="L30" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#set upper boundary cond TCup from given TAup and hplusup
+#by def: keq4=(hplus*BOH4)/BOH3; keq3=(hplus*HS)/H2S ;and keq5=hplus*OHminus
+#TAup and hplusup to be set by the user:
+TAup :=2.35e-6;  #mol/cm3
+TBup := 0.425e-6; 
+TSup := 0.0;
+hplusup := 10**(-7.6)*1e-3; ## value in brackets is 'the actual pH-value #FSF
+
+term1 := -(val_keq4*TBup)/(hplusup+val_keq4)-(val_keq3*TSup)/(hplusup+val_keq3)-val_keq5/hplusup+hplusup;
+term2 := 1+val_keq1/hplusup+(val_keq1*val_keq2)/(hplusup*hplusup);
+term3 := val_keq1/hplusup+(2*val_keq1*val_keq2)/(hplusup*hplusup);
+TCup := (TAup+term1)*term2/term3;
+
+
+co3up := TCup*val_keq1*val_keq2/(val_keq1*val_keq2+val_keq1*hplusup+hplusup*hplusup);
+hco3up := TCup*val_keq1*hplusup/(val_keq1*val_keq2+val_keq1*hplusup+hplusup*hplusup);
+h2co3up := TCup - co3up - hco3up;
+
+boh4up := TBup*hplusup/(val_keq4+hplusup);
+boh3up := TBup-boh4up;
+
+ohup := val_keq5/hplusup;
+caup := 12.6e-6;        #report manually the value from bnddata_up
+Omegaup := (co3up*caup)/val_kspcal;
+
+type_up := [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] ;
+bnddata_up := [0.46e-2, 0.1e-6, 0.12e-7, 0.9e-5, 0.124e-3, 0.28e-4, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, h2co3up, hco3up, co3up, boh3up, boh4up, hplusup, 0.45e-3, caup, 0.0, 0.0,0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.9e-5, 0.124e-3, 0.124e-3] ; 
+type_down := [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1] ;
+bnddata_down := [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] ;</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1"> Transport - Identify species that are not transported</Text-field></Title><Text-field style="Normal" layout="Normal"><Font style="Help Heading">nrnotransp:</Font> number of species that are not getting transported at all
+<Font style="Help Heading">notransp:</Font> list of species that are not getting transported at all 
+(i.e. for which the above defined dispersion and advection velocities are not used!)</Text-field><Text-field style="Text" layout="Normal"></Text-field><Text-field style="Text" layout="Normal">example:
+nrnotransp:=3;
+notransp := [1,3,4];</Text-field>
+<Group hide-input="false" labelreference="L31" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">nrnotransp := 1;
+listnotransp := [20] ;</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1"> Initial conditions</Text-field></Title><Text-field style="Normal" layout="Normal"> <Font style="Help Heading">vic</Font>: options to select initial guesses
+- 1: read from a file &quot;initialconc.txt&quot;, which contains the columns 
+     z, conc(species1), conc(species2)....
+- 2: fixed concentration, defined in the array <Font style="Help Heading">iniconc</Font></Text-field><Text-field style="Normal" layout="Normal">- 3: individual files for each species. listinput contains the species number (lenght: number of species), filenames are given in &quot;file_in_names&quot;.inp, containing in column 1 the conc, in column 2 depth. </Text-field><Text-field style="Text" italic="true" family="Monospaced" layout="Normal"><Font family="Times New Roman" italic="false">
+example (only relevant input data is given for each option, assuming 17 species):
+</Font><Font bold="true" family="Monospaced" italic="true">NOTE that you have to provide something for all ncomp species in the arrays iniconc, listinput and file_in_names, EVEN IF YOU DON'T USE IT WITH THE OPTION YOU SELECTED</Font><Font family="Times New Roman" italic="false">
+vic:=1;
+vic:=2;iniconc:=[0.,2.,...]; 
+vic:=3;listinput:=[1,2,...,17];file_in_names:=[o2,no3,...,sp17];</Font></Text-field>
+<Group hide-input="false" labelreference="L32" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">vic :2 ;
+iniconc := [30.19744e-6, 0.0, 0.0, 0.0, 0.0, 28000.0e-9, 0.0, 0.0, 1.0e-9, 0.0, 0.0, 0.0, 0.0, 0.0, h2co3up, hco3up, co3up, boh3up, boh4up, hplusup, 0.45e-3, caup, 0.0, 0.0,0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] ;
+listinput := [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35] ;
+file_in_names := [ch2o, zzo2, zno3, mno2, feoh3, zso4, zch4, znh4, zpo4, zzmn, zzfe, zh2s, zzhs, ch4g, h2co, hco3, zco3, boh4, boh3, zzph, caco, zzca, snh4, spo4, zfes, feco, zzs0, fes2, zsfe, zfp, mnco, age, mno2pr, feoh3mr, feoh3pr] ;</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1"> Output</Text-field></Title><Text-field style="Normal" layout="Normal"><Font style="Help Heading">noutput:</Font> number of species to be printed
+<Font style="Help Heading">nroutput:</Font> number of rates to be printed
+<Font style="Help Heading">listoutput:</Font> species number to print
+<Font style="Help Heading">listroutput:</Font> rate number to print
+<Font style="Help Heading">file_names:</Font> Respective file name for each of the species to print
+<Font style="Help Heading">file_rnames:</Font> Respective file name for each of the rates to print
+<Font style="Help Heading">time_iniout:</Font> First time (in years) for which a printout is requested</Text-field><Text-field style="Normal" layout="Normal"><Font style="Help Heading">time_intvout:</Font> time interval (in years) at which the printing is performed, starting from time_iniout
+
+<Font style="Text" family="Monospaced" italic="true">example:
+noutput:=4;
+listoutput:=[1,2,3,5];
+file_names:=[o2, so4, MnOx, hco3];
+time_iniout:=10.;
+time_intvout:= 100.;</Font></Text-field><Text-field style="Text" layout="Normal"></Text-field>
+<Group hide-input="false" labelreference="L33" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">noutput := 35;
+nroutput := 43;
+listoutput := [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35] ;
+listroutput := [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43] ;
+file_names := [ch2o, zzo2, zno3, mno2, feoh3, zso4, zch4, znh4, zpo4, zzmn, zzfe, zh2s, zzhs, ch4g, h2co, hco3, zco3, boh4, boh3, zzph, caco, zzca, snh4, spo4, zfes, feco, zzs0, fes2, zsfe, zfp, mnco, age, mno2pr, feoh3mr, feoh3pr] ;
+file_rnames := [xrate1, xrate2, xrate3, xrate4, xrate5, xrate6, xrate7, xrate8, xrate9, xrate10, xrate11, xrate12, xrate13, xrate14, xrate15, xrate16, xrate17, xrate18, xrate19, xrate20, xrate21, xrate22, xrate23, xrate24, xrate25, xrate26, xrate27, xrate28, xrate29, xrate30, xrate31, xrate32, xrate33, xrate34, xrate35, xrate36, xrate37, xrate38,xrate39, xrate40, xrate41,xrate42,xrate43] ;
+time_iniout := 0.01 ;
+time_intvout := tot_time/10.0 ;</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1"> Optimization</Text-field></Title><Text-field style="Normal" layout="Normal">there are several optimization options available. here you can specify what needs to be optimized and where the data is stored. to identify what kind of algorithm you want to use please select the appropriate options in drivervalues.f</Text-field><Text-field style="Normal" layout="Normal"><Font style="Help Heading">nopt_v:</Font> number of parameters to be optimized
+<Font style="Help Heading">ntopt_v:</Font> number of time points where measurements are available
+<Font style="Help Heading">nparam_opt:</Font> total number of parameters. can include the nparam but also the physical parameters.
+<Font style="Help Heading">maxxmeas_v:</Font> maximum number of depth points at any given time measured (used to make array sizes)
+<Font style="Help Heading">maxspmeas_v:</Font> maximum number of species measured at any given time (used to make array sizes)
+<Font style="Help Heading">opt_name:</Font> names of the parameters. they have to match the names given above, so best you make a copy paste!
+<Font style="Help Heading">idpar_v:</Font> identify the parameters to be optimized from the parameter list opt_name
+<Font style="Help Heading">filemeas_name:</Font> name of the files containing the measured data
+if nopt_v is set to 0 then the rest of the input doesn't matter</Text-field><Text-field style="Text" layout="Normal">example:
+nopt_v := 2; # number of parameters to be optimized
+ntopt_v := 3; # number of timepoints with measurements
+nparam_opt := nparam; # total number of parameters, set equal to all parameters except physcial ones
+maxxmeas_v:=20; # maximum 20 points in a profile at any given time
+maxspmeas_v :=2; # maximum 2 species measured at one timepoint
+opt_name := bioname; # (note that this does not include the physical parameters! if you want them to be adapted you need to specify them explicitly)
+idpar_v:= [1,3]; # optimize parameters 1 and 3 in the above list
+filemeas_name:= [meas1.dat, meas2.dat, meas3.dat]; # filenames with measurements at timepoints</Text-field>
+<Group hide-input="false" labelreference="L34" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">nopt_v := 0 ;
+ntopt_v := 0 ;
+nparam_opt := 0 ;
+maxxmeas_v := 0;
+maxspmeas_v := 0;
+opt_name := [];
+idpar_v := [];
+filemeas_name := [];</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Text" layout="Normal" spaceabove="8" spacebelow="4"> Maple specific info</Text-field></Title>
+<Group labelreference="L35" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal">dir_f: directory where the FORTRAN routines and Maple spread.m files are parsed
+format Mac: &quot;Macinthosh HD:UU:...:code&quot;
+<Font encoding="UTF-8">format PC: &quot;C:\134\134maple\134\134...\134\134code&quot;</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L36" drawlabel="true">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">WAS: dir_f := &quot;C:\134\134Dokumente und Einstellungen\134\134centler\134\134Desktop\134\134Labor\134\134Simulations&quot;: 
+</Font>currentdir(dir_f):
+save &quot;spread.m&quot; ;</Text-field>
+</Input>
+</Group>
+<Group hide-output="false" labelreference="L37" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dir_f := &quot;C:/BRNS/BRNS_source_Sep2018&quot; :<Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEhRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lK2V4ZWN1dGFibGVHUSZmYWxzZUYnL0YzUSdub3JtYWxGJw==">JSFH</Equation>
+currentdir(dir_f) :
+<Font encoding="UTF-8">parse(sprintf(&quot;save %q,\134&quot;spread.m\134&quot;;&quot;,anames()), statement) ;</Font></Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L38" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">&quot;now execute processor - make sure the directories are set correctly&quot;;</Text-field><Text-field style="Normal" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L39" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Normal" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L40" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Normal" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L41" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Normal" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L42" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Normal" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L43" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Normal" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L44" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Normal" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L45" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Normal" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2"><Hyperlink linktarget="Wks:processo.mws" hyperlink="true"><Font underline="true" style="Text" bold="true" foreground="[128,0,0]">ACG</Font></Hyperlink></Text-field></Title>
+</Section>
+</Section>
+</Worksheet>
