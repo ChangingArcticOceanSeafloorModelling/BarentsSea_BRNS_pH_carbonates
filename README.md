@@ -1,4 +1,7 @@
 # BarentsSea_BRNS_pH_carbonates
+
+Model code and output files for "Benthic Organic Matter Transformation Drives pH and Carbonate Chemistry in Arctic Marine Sediments" by F.S. Freitas, S. Arndt, K.R. Hendry, J.C. Faust, A.C. Tessin, C. Marz.
+
 BRNS code for the ChAOS Barents Sea including pH and carbonate dynamics (Maple files). Also, output files for site-specific, steady-state runs based on Freitas et al. (2020) and forced by newly implemented pH and carboate dynamics (zip folders).
 
 
